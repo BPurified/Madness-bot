@@ -1,0 +1,37 @@
+{
+  "name": "mom-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for Mansions of Madness",
+  "main": "server.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "enmap": "^5.2.4",
+    "express": "^4.17.1",
+    "moment": "^2.25.3",
+    "moment-duration-format": "^2.2.2",
+    "python": "0.0.4",
+    "sequelize": "^5.21.7",
+    "sequelize-cli": "^5.5.1",
+    "sqlite3": "^4.2.0"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-sqlite"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}

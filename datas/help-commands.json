@@ -1,0 +1,101 @@
+[
+  {
+    "name": "hello",
+    "values": {
+      "title": "!hello",
+      "desc": "Permet de dire bonjour au bot.",
+      "ex": "- !hello",
+      "more": "Un petit bonjour, c'est toujour sympathique :)"
+    }
+  },
+  {
+    "name": "list",
+    "values": {
+      "title": "!list",
+      "desc": "Permet d'afficher la liste des personnages existants et leurs statistiques.",
+      "ex": "- !list : affiche la liste complète des noms des personnages.\n- !list [Nom du personnage] : affiche le détail du personnage demandé.",
+      "more": "Cette commande a vocation à être supprimée en raison de sa faible praticitée étant donné le nombre de personnages."
+    }
+  },
+  {
+    "name": "select",
+    "values": {
+      "title": "!select",
+      "desc": "Permet de choisir un personnage.",
+      "ex": "- !select [Nom du personnage]",
+      "more": "Actuellement, la sélection fonctionne avec le nom partiel à condition que plusieurs personnages ne contiennent pas la chaîne de caractères demandée."
+    }
+  },
+  {
+    "name": "check",
+    "values": {
+      "title": "!check",
+      "desc": "Permet de voir le personnage que vous avez choisi, ainsi que vos statistiques.",
+      "ex": "- !check",
+      "more": "Pratique pour savoir si vous êtes bientôt mort."
+    }
+  },
+  {
+    "name": "delete",
+    "values": {
+      "title": "!delete",
+      "desc": "Permet de supprimer l'instance de personnage.",
+      "ex": "- !delete",
+      "more": "Peu d'utilités, mais si vous y tenez vraiment..."
+    }
+  },
+  {
+    "name": "roll",
+    "values": {
+      "title": "!roll",
+      "desc": "Permet de lancer les dés.",
+      "ex": "- !roll : lance un seul dé\n- !roll [n] : lance [n] dés.\n- !roll [stat] : lance le nombre de dés correspondant à la statistique demandée de votre personnage.\n- !roll [stat] +[n]/-[n] : lance le nombre de dés correspondant à la statistique de votre personnage avec le modificateur [n] (ex: '!roll force +2' ajoutera deux dés au lancer).",
+      "more": "Statistiques utilisables :\n- force/f\n- agilité/a\n- observation/o\n- savoir/s\n- influence/i\n- volonté/v"
+    }
+  },
+  {
+    "name": "degat",
+    "values": {
+      "title": "!degat ou !vie",
+      "desc": "Permet d'ôter simplement des points de vie au personnage pour garder une trace de votre état.",
+      "ex": "- !degat ou !vie : retire un point de vie au personnage.\n- !degat [n] ou !vie [n] : retire [n] points de vie au personnage.\n !degat [n] h ou !vie [n] h : retire [n] points de vie en dégâts cachés au personnage.",
+      "more": "Le 'h' est pour 'hidden', pensez-y !"
+    }
+  },
+  {
+    "name": "horreur",
+    "values": {
+      "title": "!horreur ou !mental",
+      "desc": "Permet d'ôter simplement des points de santé mentale au personnage pour garder une trace de votre état.",
+      "ex": "- !horreur ou !mental : retire un point de santé mentale au personnage.\n- !horreur [n] ou !mental [n] : retire [n] points de santé mentale au personnage.\n !horreur [n] h ou !mental [n] h : retire [n] points de santé mentale en horreurs cachées au personnage.",
+      "more": "Le 'h' est pour 'hidden', pensez-y !"
+    }
+  },
+  {
+    "name": "heal",
+    "values": {
+      "title": "!heal ou !soin",
+      "desc": "Permet de supprimer des dégâts ou des horreurs, caché(e)s ou non.",
+      "ex": "- !heal degat/mental ou !soin degat/mental : supprime un dégât/une horreur.\n- !heal degat/mental h ou !soin degat/mental h : supprime un dégât/une horreur caché(e).\n- !heal degat/mental [n] ou !soin degat/mental [n] : supprime [n] dégâts/ [n] horreurs.\n- !heal degat/mental [n] h ou !soin degat/mental [n] h : supprime [n] dégâts/ [n] horreurs caché(e)s.",
+      "more": "Le 'h' est pour 'hidden', pensez-y !"
+    }
+  },
+  {
+    "name": "clue",
+    "values": {
+      "title": "!clue",
+      "desc": "Permet de gérer les indices que possède le personnage.",
+      "ex": "- !clue ou !clue check : permet de connaître le nombre d'indices possédés par votre personnage.\n- !clue add : ajoute un indice.\n- !clue add [n] : ajoute [n] indices.\n- !clue remove : retire un indice.\n- !clue remove [n] : retire [n] indices.",
+      "more": "Pensez à rajouter vos indices en début de partie !"
+    }
+  },
+  {
+    "name": "draw",
+    "values": {
+      "title": "!draw",
+      "desc": "Permet de tirer une carte Etat Fou",
+      "ex": "- !draw madness ou !draw folie : permet de tirer une carte Etat Fou qui vous sera envoyée par Message Privé.",
+      "more": "La précision de la nature de la carte est obligatoire actuellement même s'il s'agit du seul type de carte disponible."
+    }
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Narcissisme",
+    "description": "*Il est évident que vous méritez de vous approprier toutes ces belles choses, sans doute plus que n'importe qui d'autre. Et pourquoi pas ? Vous avez travaillé dur pour en arriver là !*",
+    "effect": "Vous ne gagnez pas la partie normalement. A la fin de la partie, vous gagnez si vous avez au moins 6 Objets. Autrement, vous perdez la partie.",
+    "min_players": 3,
+    "madness_id": 1
+  },
+  {
+    "name": "Faire Eclater la Vérité",
+    "description": "*Nul ne vous croit, mais vous l'avez vue. La vérité est là, quelque part.*",
+    "effect": "Vous ne gagnez pas la partie normalement. Vous ne gagnez que si l'investigation est terminée et que vous avez au moins deux Objets Uniques *Preuve*. Autrement, vous perdez la partie.",
+    "min_players": 1,
+    "madness_id": 2
+  },
+  {
+    "name": "Pacte avec Yog-Sothoth",
+    "description": "*Le Rôdeur devant le Seuil vous a promis de fabuleuses connaissances en échange d'un menu service. Vous êtes prêt à apprendre le premier et le dernier secret.*",
+    "effect": "Vous ne gagnez pas la partie normalement. Au début de votre tour, si vous avez un Sort et que vous êtes sur une case avec un autre investigateur (et un seul), vous gagnez aussitôt la partie, qui est terminée. Si la partie se termine pour une autre raison, vous perdez la partie.",
+    "min_players": 3,
+    "madness_id": 3
+  },
+  {
+    "name": "Passif",
+    "description": "*Vous ne souhaitez pas vous disputer. Discuter maintenant ne serait qu'un vaste gâchis de temps et de ressources. D'autant que personne ne se rangerait à votre avis, de toute façon.*",
+    "effect": "Vous ne pouvez pas exprimer verbalement votre désaccord avec le joueur situé à votre gauche. Vous gagnez ou perdez la partie tout à fait normalement.",
+    "min_players": 2,
+    "madness_id": 4
+  },
+  {
+    "name": "Un Malheur ne Vient jamais Seul",
+    "description": "*Ils se rient de votre malheur, vous en êtes certain. Mais rira bien qui rira le dernier...*",
+    "effect": "Vous ne gagnez pas la partie normalement. Vous ne gagnez que si l'investigation est terminée et qu'un ou plusieurs autres investigateurs sont Blessés ou Fous. Autrement, vous perdez la partie.",
+    "min_players": 2,
+    "madness_id": 5
+  },
+  {
+    "name": "Adepte du Crépuscule d'Argent",
+    "description": "*L'Ordre du Crépuscule d'Argent a grand besoin des informations et des artefacts que vous mettez au jour.*",
+    "effect": "Vous ne gagnez pas la partie normalement. Vous ne gagnez que si l'investigation est terminée et que vous détenez au moins 1 *Arme Tranchante* et au moins 1  *Objet Unique*. Autrement, vous perdez la partie.",
+    "min_players": 3,
+    "madness_id": 6
+  },
+  {
+    "name": "Motifs Egoïstes",
+    "description": "*Vous ne faites pas confiance à vos « amis » et vous êtes diablement sûr que vous ne vous sacrifierez pas pour eux.*",
+    "effect": "Vous ne gagnez pas la partie normalement. Vous ne gagnez que si l'investigation est terminée et que vous n'êtes pas Blessé. Autrement, vous perdez la partie.\n\nQuand vous gagnez cette carte, si vous êtes Blessé, défaussez-la et gagnez un Etat Fou différent.",
+    "min_players": 2,
+    "madness_id": 7
+  },
+  {
+    "name": "Mots Interdits",
+    "description": "*Vous craignez les mots qui signeront votre perte, et vous vous dites que vous feriez mieux de ne plus jamais parler.*",
+    "effect": "Vous ne pouvez plus parler. Vous gagnez ou perdez la partie tout à fait normalement.",
+    "min_players": 2,
+    "madness_id": 8
+  },
+  {
+    "name": "Crise de Conscience",
+    "description": "*Il est clair que vous et vos compagnons vous mêlez de choses que vous ne comprenez pas. Il existe un ordre naturel, et qui êtes-vous pour en déterminer le cours ?*",
+    "effect": "Vous ne gagnez pas la partie normalement. A la fin de la partie, vous gagnez si l'investigation n'est pas terminée. Autrement, vous perdez la partie.",
+    "min_players": 3,
+    "madness_id": 9
+  },
+  {
+    "name": "Pyromanie",
+    "description": "*Le feu vous tient chaud et chasse l'obscurité. Le seul moyen d'être en sécurité est d'allumer autant de jolis feux que possible.*",
+    "effect": "Vous ne gagnez pas la partie normalement. Au début de votre tour, si au moins 6 salles contiennent du Feu, vous gagnez aussitôt la partie, qui est terminée. Si la partie se termine pour une autre raison, vous perdez la partie.",
+    "min_players": 3,
+    "madness_id": 10
+  },
+  {
+    "name": "L'un des Mille",
+    "description": "*Vous devez faire un sacrifice à la Chèvre Noire des Bois ! Iä ! Iä ! Shub-Niggurath fhtagn !*",
+    "effect": "Vous ne gagnez pas la partie normalement. Au début de votre tour, si vous avez une *Arme Tranchante* et que vous êtes sur une case avec un autre investigateur (et un seul), vous gagnez aussitôt la partie, qui est terminée. Si la partie se termine pour une autre raison, vous perdez la partie.",
+    "min_players": 3,
+    "madness_id": 11
+  },
+  {
+    "name": "Préparé",
+    "description": "*Vous savez maintenant que tout peut déraper à n'importe quel moment. Sans une bonne préparation, tout pourrait être perdu.*",
+    "effect": "Vous ne gagnez pas la partie normalement. Vous ne gagnez que si l'investigation est terminée et que vous avez au moins 1 *Arme Tranchante* ou *Source de Lumière*.",
+    "min_players": 1,
+    "madness_id": 12
+  },
+  {
+    "name": "Méfiant",
+    "description": "*Vos amis vous jettent des coups d'oeil, et vous lisez la méfiance dans leurs regards.*",
+    "effect": "Pas d'effet. Vous gagnez ou perdez la partie tout à fait normalement.",
+    "min_players": 1,
+    "madness_id": 13
+  },
+  {
+    "name": "Pour le Bien Commun",
+    "description": "*Vous avez trop longtemps plongé les yeux dans l'abysse et combattu des monstres. Il n'y a aucune place pour vous dans le monde meilleur que vous vous efforcez de préserver. Mieux vaut ne pas voir ça.*",
+    "effect": "Vous ne gagnez pas la partie normalement. Vous ne gagnez que si l'investigation est terminée et que vous avez été éliminé. Autrement, vous perdez la partie.",
+    "min_players": 2,
+    "madness_id": 14
+  },
+  {
+    "name": "Agitation Nerveuse",
+    "description": "*Vous réalisez brutalement que votre existence est non seulement ennuyeuse, mais également inutile. La vie est trop courte pour ne pas profiter de chaque jour comme si c'était le dernier. Et puis, après tout, la diversité ajoute du piquant à la vie.*",
+    "effect": "Vous ne pouvez pas effectuer une même action plus d'une fois par round. Vous gagnez ou perdez la partie tout à fait normalement.",
+    "min_players": 1,
+    "madness_id": 15
+  },
+  {
+    "name": "Agressif",
+    "description": "*Vous n'êtes absolument pas d'accord avec ces gens qui persistent à gâcher des ressources et un temps précieux. Quelqu'un doit se faire l'avocat du diable, sans quoi des affaires cruciales seront négligées.*",
+    "effect": "Vous devez commencer chacune de vos phrases par le mot « Non ». Vous gagnez ou perdez la partie normalement.",
+    "min_players": 2,
+    "madness_id": 16
+  },
+  {
+    "name": "Obsessionnel",
+    "description": "*Vous devez le trouver. Vous ne savez pas de quoi il s'agit, mais quand vous le verrez, vous saurez et trouverez enfin la paix.*",
+    "effect": "Vous ne gagnez pas la partie normalement. Vous ne gagnez que si l'investigation est terminée et qu'il n'y a pas de pions Fouille sur le plateau. Autrement, vous perdez la partie.",
+    "min_players": 1,
+    "madness_id": 17
+  },
+  {
+    "name": "Aspirations Esotériques",
+    "description": "*Les armes normales ne sont d'aucun secours face aux puissances liguées contre vous. La seule chose capable de vous prémunir d'un mal surnaturel est une protection tout aussi surnaturelle.*",
+    "effect": "Vous ne gagnez pas la partie normalement. Vous ne gagnez que si l'investigation est terminée et que vous avez au moins 1 Sort. Autrement, vous perdez la partie.",
+    "min_players": 1,
+    "madness_id": 18
+  }
+]
